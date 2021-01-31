@@ -1,0 +1,40 @@
+User-Agent: PostmanRuntime/7.26.10
+This is the user Agent in this case it is the postman application.
+Accept: */*
+*This means we accept any MIME type
+Postman-Token: cce670e5-262a-47d5-b5d3-9e6b83281487
+*A token generated for secure acess and autherization.
+Host: www.googleapis.com
+*where we are sending the request to
+Accept-Encoding: gzip, deflate, br
+*These are the different types of encoding algorithms supported by our client
+Connection: keep-alive
+*This lets the host know the client wants to keep the connection open
+Response Headers
+Content-Type: application/json; charset=UTF-8
+shows the content is json and formated in utf-8
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+*Various vary headers that show how to handle future responses.
+Content-Encoding: gzip
+*What encoding the response is in
+Date: Sun, 31 Jan 2021 01:59:37 GMT
+*Date and time the request was sent
+Server: ESF
+*The software used to network
+Cache-Control: private
+*This means the response may only be stored by a browsers cache.
+X-XSS-Protection: 0
+*0 means that xss filtering is disabled
+X-Frame-Options: SAMEORIGIN
+*option to decide how the page should be rendered. SAMEORIGIN means the the frame will be the same as the page itself
+X-Content-Type-Options: nosniff
+*Blocks a request if the request destination is of type:
+"style" and the MIME type is not text/css, or
+"script" and the MIME type is not a JavaScript MIME type
+
+Alt-Svc: h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+*This is a list of alternate ways to reach a website
+Transfer-Encoding: chunked
+* the data is sent in a series of chunks and the final chunk is represented by a zero byte chunk
